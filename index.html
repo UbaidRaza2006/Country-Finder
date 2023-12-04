@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <center>
+        <div id="a" class="show">
+            <input type="text" id="inp" value="pakistan">
+            <button id="btn"><i class="fa fa-search"></i> Search</button>
+        </div>
+        <div id="show" class="show">
+            <div id="main">
+                <img src="" id="flag" alt="Flag"> 
+            </div>
+            <div id="margin">
+                <h1 id="name"></h1>
+                <div class="row">
+                    <div>
+                        <p>Official Name: <span id="official"></span></p>
+                        <p>Capital: <span id="capital"></span></p>
+                        <p>Total Area: <span id="total"></span></p>
+                        <p>Total Population: <span id="population"></span></p>
+                        <p>Language: <span id="language"></span></p>
+                        <p>Region: <span id="region"></span></p>
+                        <p>See Map: <a href="" id="map" target="_blank">Open Google Map</span></a>
+                    </div>
+                    <div>
+                        <p>Currencies: <span id="currency"></span></p>
+                        <p>TimeZone: <span id="timeZone"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+
+
+
+    <script src="./app.js"></script>
+    <script src='sweetalert2.all.min.js'></script>
+    <script src=' https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+</body>
+
+</html>
